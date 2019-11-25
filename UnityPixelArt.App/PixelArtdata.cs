@@ -30,11 +30,11 @@ namespace UnityPixelArt.App
             this.yTileSize = yTileSize;
         }
         public PixelArtdata(){
-
+            
         }
 
         public override string ToString(){
-            return "Hello guys";
+            return $"Tilesize: {xTileSize}, {yTileSize}. Offset: {xOffset}, {yOffset}. Padding: {xPadding}, {yPadding}.";
         }
     }
 }

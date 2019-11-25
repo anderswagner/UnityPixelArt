@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace UnityPixelArt.App
 {
-    class UnityPixelArt
-    {
-        private static PixelArtdata _pixelArtData;
-        static void Main(string[] args)
+    public class UnityPixelArtRunner
+    {   
+        public static void Main(string[] args)
         {
-            List<int> values = new List<int>();
-            while (values.Count < 6){
-                string x = Console.ReadLine();
-                values.Add(int.Parse(x));
+            if (args.Length == 0){
+                Console.WriteLine("Please input a file to update");
+                return;
             }
-            //Seperate constructor
-            _pixelArtData = new PixelArtdata(values[0], values[1], values[2], values[3], values[4], values[5]);
-            Console.WriteLine($"You have added all info {_pixelArtData}");
+            DataInput inputter = new DataInput(args[0]);
+            
         }
-    }
+    }  
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {}
+    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
+    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "projectUniqueName": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
         "projectName": "UnityPixelArt.App",
-        "projectPath": "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "projectPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
         "packagesPath": "C:\\Users\\ande257d\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
+        "outputPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
