@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "projectName": "UnityPixelArt.App",
+        "projectPath": "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "packagesPath": "C:\\Users\\ande257d\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ande257d\\Documents\\C#Projects\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ande257d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\bin\Debug\netcoreapp3.0\UnityPixelArt.App.exe
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\bin\Debug\netcoreapp3.0\UnityPixelArt.App.deps.json
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\bin\Debug\netcoreapp3.0\UnityPixelArt.App.runtimeconfig.json
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\bin\Debug\netcoreapp3.0\UnityPixelArt.App.runtimeconfig.dev.json
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\bin\Debug\netcoreapp3.0\UnityPixelArt.App.dll
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\bin\Debug\netcoreapp3.0\UnityPixelArt.App.pdb
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\obj\Debug\netcoreapp3.0\UnityPixelArt.App.csprojAssemblyReference.cache
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\obj\Debug\netcoreapp3.0\UnityPixelArt.App.AssemblyInfoInputs.cache
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\obj\Debug\netcoreapp3.0\UnityPixelArt.App.AssemblyInfo.cs
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\obj\Debug\netcoreapp3.0\UnityPixelArt.App.dll
+C:\Users\ande257d\Documents\C#Projects\UnityPixelArt\UnityPixelArt.App\obj\Debug\netcoreapp3.0\UnityPixelArt.App.pdb
