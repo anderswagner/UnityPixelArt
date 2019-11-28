@@ -202,3 +202,7 @@ C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.csproj.CopyComplete
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.dll
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.pdb
+f:\UnityPixelArt\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.dll
+f:\UnityPixelArt\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.csprojAssemblyReference.cache
+f:\UnityPixelArt\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.AssemblyInfoInputs.cache
+f:\UnityPixelArt\UnityPixelArt\UnityPixelArt.Tests\obj\Debug\netcoreapp3.0\UnityPixelArt.Tests.AssemblyInfo.cs

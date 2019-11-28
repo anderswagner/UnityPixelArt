@@ -1,21 +1,18 @@
 using System;
 using Xunit;
 using UnityPixelArt.App;
+using System.Drawing;
+using System.IO;
+using System.Reflection;
 
 namespace UnityPixelArt.Tests
 {
     public class DataInputTests
     {
         [Fact]
-        public void Test_Loading_File()
+        public void Test_Correct_PixelArtData()
         {
-            DataInput dataInput = new DataInput("TestData/Monkey.png");
-            
-        }
-
-        [Fact]
-        public void Modifying_Unnecessary_File()
-        {
+            PixelArtData expectedData = new PixelArtData(16,16,16,16,16,16);
             
         }
     }

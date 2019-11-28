@@ -10,13 +10,14 @@ namespace UnityPixelArt.App
     {
         private PixelArtdata _pixelArtData;
         private Bitmap _loadedBitmap, _modifiedBitmap;
+        private string _fileName;
         public DataInput(string path)
         {    
+            _fileName = path;
             if (!LoadImage(path)){
                 Console.WriteLine("Please input a valid file-path");
                 return;
             }
-            Console.WriteLine(_loadedBitmap.Height);
             List<int> values = new List<int>();
             while (values.Count < 6){
                 string toWrite = "";
@@ -50,17 +51,26 @@ namespace UnityPixelArt.App
             ModifyBitmap();
         }
 
+        //TODO: Make this async to provide feedback how far in the progress we are
         private void ModifyBitmap()
         {
-            Console.WriteLine(_loadedBitmap.GetPixel(_loadedBitmap.Height/2, 8));
+            int x = _loadedBitmap.Width - _pixelArtData.XOffset;
+            int y = _loadedBitmap.Height - _pixelArtData.YOffset;
+            int xTileSize = _pixelArtData.XTileSize + (_pixelArtData.XPadding*2);
+            int yTileSize = _pixelArtData.YTileSize + (_pixelArtData.YPadding*2);
+            int xTiles = x/xTileSize;
+            int yTiles = y/yTileSize;
+            _modifiedBitmap = new Bitmap(_pixelArtData.XOffset + (xTiles*(xTileSize + 2)), _pixelArtData.YOffset + (yTiles*(yTileSize +2)));
+            _modifiedBitmap.Save(_fileName.Substring(0,_fileName.Length-4) + "_modified.png");
         }
 
-        public Image GetLoadedBitmap(){
+        public Bitmap GetLoadedBitmap(){
             return _loadedBitmap;
         }
+
         private bool LoadImage(string path)
         {
-            string filePath = path;
+            string filePath = $"{Environment.CurrentDirectory}\\{path}";
             try
             {
                 _loadedBitmap = (Bitmap) Image.FromFile(filePath);

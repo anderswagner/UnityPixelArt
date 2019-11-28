@@ -30,7 +30,6 @@ namespace UnityPixelArt.App
             this.yTileSize = yTileSize;
         }
         public PixelArtdata(){
-            
         }
 
         public override string ToString(){

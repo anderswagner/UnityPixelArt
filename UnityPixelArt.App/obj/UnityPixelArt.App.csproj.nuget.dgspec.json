@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {}
+    "F:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
+    "F:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "projectUniqueName": "F:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
         "projectName": "UnityPixelArt.App",
-        "projectPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
-        "packagesPath": "C:\\Users\\ande257d\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
+        "projectPath": "F:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
+        "outputPath": "F:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ande257d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

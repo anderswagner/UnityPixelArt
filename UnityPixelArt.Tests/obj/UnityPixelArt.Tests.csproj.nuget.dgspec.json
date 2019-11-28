@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj": {}
+    "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
+    "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "projectUniqueName": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
         "projectName": "UnityPixelArt.App",
-        "projectPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
-        "packagesPath": "C:\\Users\\ande257d\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
+        "projectPath": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj",
+        "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ande257d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,24 +61,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj": {
+    "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj",
+        "projectUniqueName": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj",
         "projectName": "UnityPixelArt.Tests",
-        "projectPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj",
-        "packagesPath": "C:\\Users\\ande257d\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.Tests\\obj\\",
+        "projectPath": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.Tests\\UnityPixelArt.Tests.csproj",
+        "packagesPath": "C:\\Users\\Anders\\.nuget\\packages\\",
+        "outputPath": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ande257d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anders\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
-                "projectPath": "C:\\Users\\ande257d\\Documents\\CSharpProjects\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj"
+              "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj": {
+                "projectPath": "f:\\UnityPixelArt\\UnityPixelArt\\UnityPixelArt.App\\UnityPixelArt.App.csproj"
               }
             }
           }
@@ -109,6 +109,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.2.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.1, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -138,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
