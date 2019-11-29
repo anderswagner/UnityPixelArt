@@ -2004,17 +2004,17 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "UnityPixelArt.App/1.0.0": {
+      "PixelFix/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "System.Drawing.Common": "4.6.1"
         },
         "compile": {
-          "bin/placeholder/UnityPixelArt.App.dll": {}
+          "bin/placeholder/PixelFix.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UnityPixelArt.App.dll": {}
+          "bin/placeholder/PixelFix.dll": {}
         }
       }
     }
@@ -6627,7 +6627,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "UnityPixelArt.App/1.0.0": {
+    "PixelFix/1.0.0": {
       "type": "project",
       "path": "../UnityPixelArt.App/UnityPixelArt.App.csproj",
       "msbuildProject": "../UnityPixelArt.App/UnityPixelArt.App.csproj"
@@ -6636,8 +6636,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
+      "PixelFix >= 1.0.0",
       "System.Drawing.Common >= 4.6.1",
-      "UnityPixelArt.App >= 1.0.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"

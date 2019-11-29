@@ -1,4 +1,3 @@
-C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\bin\Release\netcoreapp3.0\UnityPixelArt.App.exe
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\bin\Release\netcoreapp3.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\bin\Release\netcoreapp3.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\bin\Release\netcoreapp3.0\xunit.runner.utility.netcoreapp10.dll
@@ -100,3 +99,4 @@ C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj\Release\netcoreapp3.0\UnityPixelArt.Tests.csproj.CopyComplete
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj\Release\netcoreapp3.0\UnityPixelArt.Tests.dll
 C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\obj\Release\netcoreapp3.0\UnityPixelArt.Tests.pdb
+C:\Users\ande257d\Documents\CSharpProjects\UnityPixelArt\UnityPixelArt.Tests\bin\Release\netcoreapp3.0\PixelFix.exe

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace UnityPixelArt.App
 {
@@ -9,13 +10,14 @@ namespace UnityPixelArt.App
     {
         private PixelArtdata _pixelArtData;
         private Bitmap _loadedBitmap, _modifiedBitmap;
-        private string _fileName;
+        private string _fileName, _currentLine;
         private int x;
         private int y;
         private int xTileSize;
         private int yTileSize;
         private int xTiles;
         private int yTiles;
+        private int modifiedTilesCounter;
 
         public DataInput(string path)
         {    
@@ -53,8 +55,21 @@ namespace UnityPixelArt.App
             }
             _pixelArtData = new PixelArtdata(values[0], values[1], values[2], values[3], values[4], values[5]);
             Console.WriteLine($"\nYou have added all info. \n{_pixelArtData}\n");
-
+            
+            _currentLine = "";
             ModifyBitmap();
+            Console.WriteLine("\nPress ENTER to close");
+            Console.ReadLine();
+        }
+        private void IncrementCounterAndNotify()
+        {
+            modifiedTilesCounter++;
+            int percent = modifiedTilesCounter/(xTiles * yTiles);
+            percent /= 5;
+            string done = new String('#', percent);
+            string waiting = new String('#', 20-percent);
+            _currentLine = $"Progress:[{done}{waiting}]";
+            Console.Write($"\r{_currentLine}");
         }
 
         //TODO: Make this async to provide feedback how far in the progress we are
@@ -72,12 +87,14 @@ namespace UnityPixelArt.App
                 for (int j = 0; j < yTiles; j++){
                     TransferTile(i, j);
                     AddEdges(i, j);
+                    IncrementCounterAndNotify();
                 }
             }
             
             _modifiedBitmap.Save(_fileName.Substring(0,_fileName.Length-4) + "_modified.png");
-            Console.WriteLine($"Saved file at {_fileName.Substring(0,_fileName.Length-4)}_modified.png");
+            Console.WriteLine($"\nSaved file at {_fileName.Substring(0,_fileName.Length-4)}_modified.png");
         }
+
         private void TransferTile(int xI, int yI)
         {
             int newXPos = _pixelArtData.XOffset + (xI * (xTileSize + 2)) + 1;
@@ -88,6 +105,7 @@ namespace UnityPixelArt.App
                 for(int j = 0; j < _pixelArtData.YTileSize; j++){
                     Color pixelColor = _loadedBitmap.GetPixel(oldXPos+i, oldYPos+j);
                     _modifiedBitmap.SetPixel(i+newXPos,j+newYPos, pixelColor);
+
                 }
             }
         }
