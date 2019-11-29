@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Reflection;
 
 namespace UnityPixelArt.App
 {
@@ -75,7 +74,9 @@ namespace UnityPixelArt.App
                     AddEdges(i, j);
                 }
             }
+            
             _modifiedBitmap.Save(_fileName.Substring(0,_fileName.Length-4) + "_modified.png");
+            Console.WriteLine($"Saved file at {_fileName.Substring(0,_fileName.Length-4)}_modified.png");
         }
         private void TransferTile(int xI, int yI)
         {
@@ -90,12 +91,18 @@ namespace UnityPixelArt.App
                 }
             }
         }
-        private void AddEdges(int i, int j)
+        private void AddEdges(int xI, int yI)
         {
-            //Add top
-            //Add bottom
-            //Add left
-            //Add right
+            int newXPos = _pixelArtData.XOffset + (xI * (xTileSize + 2)) + 1;
+            int newYPos = _pixelArtData.YOffset + (yI * (yTileSize + 2)) + 1;
+            for(int i = 0; i < _pixelArtData.XTileSize; i++){
+                _modifiedBitmap.SetPixel(i+newXPos,newYPos-1, _modifiedBitmap.GetPixel(i+newXPos, newYPos));
+                _modifiedBitmap.SetPixel(i+newXPos,newYPos + yTileSize, _modifiedBitmap.GetPixel(i+newXPos, newYPos + yTileSize - 1));
+            }
+            for(int i = -1; i < _pixelArtData.YTileSize+1; i++){
+                _modifiedBitmap.SetPixel(newXPos-1, i+newYPos, _modifiedBitmap.GetPixel(newXPos, i+newYPos));
+                _modifiedBitmap.SetPixel(newXPos+xTileSize, i+newYPos, _modifiedBitmap.GetPixel(newXPos+xTileSize-1, i+newYPos));
+            }
         }
 
 
