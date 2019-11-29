@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "UnityPixelArt.App/1.0.0": {
+      "PixelFix/1.0.0": {
         "dependencies": {
           "System.Drawing.Common": "4.6.1"
         },
         "runtime": {
-          "UnityPixelArt.App.dll": {}
+          "PixelFix.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.0.0": {},
@@ -63,7 +63,7 @@
     }
   },
   "libraries": {
-    "UnityPixelArt.App/1.0.0": {
+    "PixelFix/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

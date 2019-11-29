@@ -1,17 +1,17 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.2",
-    "signature": "94df6f888d497284c3eb3e4afb4868e7356a2ad1"
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.2": {
-      "UnityPixelArt.App/1.0.0": {
+    ".NETCoreApp,Version=v3.0": {
+      "PixelFix/1.0.0": {
         "dependencies": {
           "System.Drawing.Common": "4.6.1"
         },
         "runtime": {
-          "UnityPixelArt.App.dll": {}
+          "PixelFix.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.0.0": {},
@@ -26,7 +26,7 @@
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "4.0.1.0",
@@ -46,24 +46,24 @@
           }
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
             "rid": "unix",
             "assetType": "runtime",
-            "assemblyVersion": "4.0.0.1",
-            "fileVersion": "4.6.26919.2"
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.700.19.51609"
           },
-          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.0.0.1",
-            "fileVersion": "4.6.26919.2"
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.700.19.51609"
           }
         }
       }
     }
   },
   "libraries": {
-    "UnityPixelArt.App/1.0.0": {
+    "PixelFix/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

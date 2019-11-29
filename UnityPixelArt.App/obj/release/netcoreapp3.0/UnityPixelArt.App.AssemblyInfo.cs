@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UnityPixelArt.App")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PixelFix")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("UnityPixelArt.App")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UnityPixelArt.App")]
+[assembly: System.Reflection.AssemblyProductAttribute("PixelFix")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PixelFix")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
