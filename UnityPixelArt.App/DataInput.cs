@@ -11,6 +11,13 @@ namespace UnityPixelArt.App
         private PixelArtdata _pixelArtData;
         private Bitmap _loadedBitmap, _modifiedBitmap;
         private string _fileName;
+        private int x;
+        private int y;
+        private int xTileSize;
+        private int yTileSize;
+        private int xTiles;
+        private int yTiles;
+
         public DataInput(string path)
         {    
             _fileName = path;
@@ -54,17 +61,46 @@ namespace UnityPixelArt.App
         //TODO: Make this async to provide feedback how far in the progress we are
         private void ModifyBitmap()
         {
-            int x = _loadedBitmap.Width - _pixelArtData.XOffset;
-            int y = _loadedBitmap.Height - _pixelArtData.YOffset;
-            int xTileSize = _pixelArtData.XTileSize + (_pixelArtData.XPadding*2);
-            int yTileSize = _pixelArtData.YTileSize + (_pixelArtData.YPadding*2);
-            int xTiles = x/xTileSize;
-            int yTiles = y/yTileSize;
+            x = _loadedBitmap.Width - _pixelArtData.XOffset;
+            y = _loadedBitmap.Height - _pixelArtData.YOffset;
+            xTileSize = _pixelArtData.XTileSize + (_pixelArtData.XPadding*2);
+            yTileSize = _pixelArtData.YTileSize + (_pixelArtData.YPadding*2);
+            xTiles = x/xTileSize;
+            yTiles = y/yTileSize;
+            
             _modifiedBitmap = new Bitmap(_pixelArtData.XOffset + (xTiles*(xTileSize + 2)), _pixelArtData.YOffset + (yTiles*(yTileSize +2)));
+            for(int i = 0; i < xTiles; i++){
+                for (int j = 0; j < yTiles; j++){
+                    TransferTile(i, j);
+                    AddEdges(i, j);
+                }
+            }
             _modifiedBitmap.Save(_fileName.Substring(0,_fileName.Length-4) + "_modified.png");
         }
+        private void TransferTile(int xI, int yI)
+        {
+            int newXPos = _pixelArtData.XOffset + (xI * (xTileSize + 2)) + 1;
+            int newYPos = _pixelArtData.YOffset + (yI * (yTileSize + 2)) + 1;
+            int oldXPos = _pixelArtData.XOffset + (xI * xTileSize);
+            int oldYPos = _pixelArtData.YOffset + (yI * yTileSize);
+            for(int i = 0; i < _pixelArtData.XTileSize; i++){
+                for(int j = 0; j < _pixelArtData.YTileSize; j++){
+                    Color pixelColor = _loadedBitmap.GetPixel(oldXPos+i, oldYPos+j);
+                    _modifiedBitmap.SetPixel(i+newXPos,j+newYPos, pixelColor);
+                }
+            }
+        }
+        private void AddEdges(int i, int j)
+        {
+            //Add top
+            //Add bottom
+            //Add left
+            //Add right
+        }
 
-        public Bitmap GetLoadedBitmap(){
+
+        public Bitmap GetLoadedBitmap()
+        {
             return _loadedBitmap;
         }
 
